@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailFragment"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:id="@+id/TitleDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titre"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/textViewArtist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textViewArtist"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/textViewArtistName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NomArtiste"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewAlbum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/textViewAlbum"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/textViewAlbumName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="NomAlbum"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewFavoris"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/textViewFavoris"
+            android:layout_weight="1"
+            android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/radioButtonFavoris1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButtonFavoris1" />
+
+        <RadioButton
+            android:id="@+id/radioButtonFavoris2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radioButtonFavoris2" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="75dp"
+        android:id="@+id/imageAlbumDetail"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        tools:src="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="">
+
+        <Button
+            android:id="@+id/buttonPlayDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buttonPlayDetail"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/buttonLinkDetail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buttonLinkDetail"
+            android:gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>

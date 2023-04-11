@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">myDeezer</string>
+    <string name ="textViewAlbum">Album :</string>
+    <string name="textViewArtist">Artiste :</string>
+    <string name="textViewFavoris"> Favoris : </string>
+    <string name="radioButtonFavoris1"> Oui </string>
+    <string name="radioButtonFavoris2"> Non </string>
+    <string name="buttonPlayDetail"> Ecouter </string>
+    <string name="buttonLinkDetail"> Lien Deezer </string>
+</resources>
